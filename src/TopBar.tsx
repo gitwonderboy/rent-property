@@ -7,10 +7,10 @@ function TopBar() {
             <div className="col-lg-8 col-md-8">
               <ul className="info">
                 <li>
-                  <i className="fa fa-envelope"></i> info@company.com
+                  <i className="fa fa-envelope"></i> info@cornerproperties.co.za
                 </li>
                 <li>
-                  <i className="fa fa-map"></i> Sunny Isles Beach, FL 33160
+                  <i className="fa fa-map"></i> Durban Club Pl, Durban Central, Durban, 4001
                 </li>
               </ul>
             </div>
