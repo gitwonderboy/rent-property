@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function NavBar() {
   return (
     <>
@@ -6,34 +8,27 @@ function NavBar() {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                <a href="index.html" className="logo">
+                <Link className="logo" to="/">
                   <h1>CORNER</h1>
-                </a>
+                </Link>
 
                 <ul className="nav">
                   <li>
-                    <a href="index.html" className="active">
-                      Home
-                    </a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <a href="properties.html">Properties</a>
+                    <Link to="/properties">Properties</Link>
                   </li>
                   <li>
-                    <a href="property-details.html">Property Details</a>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="#">
+                    <Link to="/contact">
                       <i className="fa fa-calendar"></i> Schedule a visit
-                    </a>
+                    </Link>
                   </li>
                 </ul>
-                <a className="menu-trigger">
-                  <span>Menu</span>
-                </a>
+                <Link to="/" className="menu-trigger"></Link>
               </nav>
             </div>
           </div>

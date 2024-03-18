@@ -11,7 +11,7 @@ function Carousel() {
               <h2>
                 Hurry!
                 <br />
-                Get the Best Villa for you
+                Get the Best for you ...
               </h2>
             </div>
           </div>
