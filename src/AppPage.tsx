@@ -8,7 +8,8 @@ import DealComponent from './DealComponent';
 import PropertiesComponent from './PropertyComponent';
 import ContactsComponent from './ContactComponent';
 import FooterComponent from './FooterComponent';
-function App() {
+
+export default function App() {
   return (
     <>
       <TopBarComponent />
@@ -24,5 +25,3 @@ function App() {
     </>
   );
 }
-
-export default App;

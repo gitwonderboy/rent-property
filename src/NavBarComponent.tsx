@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function NavBar() {
+export default function NavBarComponent() {
   return (
     <>
       <header className="header-area header-sticky">
@@ -37,5 +37,3 @@ function NavBar() {
     </>
   );
 }
-
-export default NavBar;

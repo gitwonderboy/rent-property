@@ -1,4 +1,4 @@
-function Deal() {
+export default function DealComponent() {
   return (
     <>
       <div className="section best-deal">
@@ -206,5 +206,3 @@ function Deal() {
     </>
   );
 }
-
-export default Deal;

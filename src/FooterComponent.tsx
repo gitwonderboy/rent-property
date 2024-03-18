@@ -1,4 +1,4 @@
-function Footer() {
+export default function FooterComponent() {
   return (
     <>
       <footer>
@@ -17,5 +17,3 @@ function Footer() {
     </>
   );
 }
-
-export default Footer;

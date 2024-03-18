@@ -2,7 +2,8 @@ import TopBarComponent from './TopBarComponent';
 import NavBarComponent from './NavBarComponent';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
-function Property() {
+
+export default function Property() {
   return (
     <>
       <TopBarComponent />
@@ -12,5 +13,3 @@ function Property() {
     </>
   );
 }
-
-export default Property;

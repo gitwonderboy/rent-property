@@ -1,4 +1,4 @@
-function Properties() {
+export default function PropertyComponent() {
   return (
     <>
       <div className="properties section">
@@ -210,5 +210,3 @@ function Properties() {
     </>
   );
 }
-
-export default Properties;

@@ -1,4 +1,4 @@
-function Contacts() {
+export default function ContactComponent() {
   return (
     <>
       <div className="contact section">
@@ -101,5 +101,3 @@ function Contacts() {
     </>
   );
 }
-
-export default Contacts;

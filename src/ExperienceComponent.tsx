@@ -1,4 +1,4 @@
-function Experience() {
+export default function ExperienceComponent() {
   return (
     <>
       <div className="fun-facts">
@@ -52,5 +52,3 @@ function Experience() {
     </>
   );
 }
-
-export default Experience;

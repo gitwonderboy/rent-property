@@ -1,4 +1,4 @@
-function Carousel() {
+export default function CarouselComponent() {
   return (
     <>
       <div className="main-banner">
@@ -44,5 +44,3 @@ function Carousel() {
     </>
   );
 }
-
-export default Carousel;

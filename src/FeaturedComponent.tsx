@@ -1,4 +1,4 @@
-function Featured() {
+export default function FeaturedComponent() {
   return (
     <>
       <div className="featured section">
@@ -145,5 +145,3 @@ function Featured() {
     </>
   );
 }
-
-export default Featured;

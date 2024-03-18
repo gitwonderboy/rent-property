@@ -1,4 +1,4 @@
-function TopBar() {
+export default function TopBarComponent() {
   return (
     <>
       <div className="sub-header">
@@ -44,5 +44,3 @@ function TopBar() {
     </>
   );
 }
-
-export default TopBar;

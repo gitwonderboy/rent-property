@@ -1,4 +1,4 @@
-function Header() {
+export default function HeaderComponent() {
   return (
     <>
       <div className="page-heading header-text">
@@ -16,5 +16,3 @@ function Header() {
     </>
   );
 }
-
-export default Header;

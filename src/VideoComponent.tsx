@@ -1,4 +1,4 @@
-function Video() {
+export default function VideoComponent() {
   return (
     <>
       <div className="video section">
@@ -30,5 +30,3 @@ function Video() {
     </>
   );
 }
-
-export default Video;

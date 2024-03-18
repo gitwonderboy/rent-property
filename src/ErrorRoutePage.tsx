@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function ErrorRoute() {
+export default function ErrorRoute() {
   return (
     <>
       <h1>404 Not Found</h1>
@@ -10,5 +10,3 @@ function ErrorRoute() {
     </>
   );
 }
-
-export default ErrorRoute;
