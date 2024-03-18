@@ -5,6 +5,7 @@ import Featured from './Featured';
 import Video from './Video';
 import Experience from './Experience';
 import Deal from './Deal';
+import Properties from './Properties';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Video />
       <Experience />
       <Deal />
+      <Properties />
     </>
   );
 }
