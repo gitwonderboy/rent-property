@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import App from './App.tsx';
-import Property from './Property.tsx';
-import ErrorRoute from './ErrorRoute.tsx';
+import AppPage from './AppPage.tsx';
+import PropertyPage from './PropertyPage.tsx';
+import ErrorRoutePage from './ErrorRoutePage.tsx';
 import './index.css';
 
 const router = createBrowserRouter([
-  { path: '/', element: <App />, errorElement: <ErrorRoute /> },
-  { path: '/properties', element: <Property /> },
-  { path: '/contact', element: <Property /> },
+  { path: '/', element: <AppPage />, errorElement: <ErrorRoutePage /> },
+  { path: '/properties', element: <PropertyPage /> },
+  { path: '/contact', element: <PropertyPage /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
