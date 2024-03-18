@@ -5,7 +5,7 @@ import FeaturedComponent from './FeaturedComponent';
 import VideoComponent from './VideoComponent';
 import ExperienceComponent from './ExperienceComponent';
 import DealComponent from './DealComponent';
-import PropertiesComponent from './PropertyComponent';
+import ListPropertyComponent from './ListPropertyComponent';
 import ContactsComponent from './ContactComponent';
 import FooterComponent from './FooterComponent';
 
@@ -19,7 +19,7 @@ export default function App() {
       <VideoComponent />
       <ExperienceComponent />
       <DealComponent />
-      <PropertiesComponent />
+      <ListPropertyComponent />
       <ContactsComponent />
       <FooterComponent />
     </>
