@@ -2,6 +2,7 @@ import TopBar from './TopBar';
 import NavBar from './NavBar';
 import Carousel from './Carousel';
 import Featured from './Featured';
+import Video from './Video';
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <Carousel />
       <Featured />
+      <Video />
     </>
   );
 }
