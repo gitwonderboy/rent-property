@@ -21,7 +21,7 @@ export default function ContactPage() {
     <>
       <TopBarComponent />
       <NavBarComponent />
-      <HeaderComponent pageTitle="Contact Us" />
+      <HeaderComponent pageTitle="Contact Us" page="Contact" />
       <ContactComponent map={map} />
       <FooterComponent />
     </>

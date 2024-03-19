@@ -20,7 +20,7 @@ export default function NavBarComponent() {
                     <Link to="/properties">Properties</Link>
                   </li>
                   <li>
-                    <Link to="/contact">Contact Us</Link>
+                    <Link to="/contact">Contact</Link>
                   </li>
                   <li>
                     <Link to="/contact">

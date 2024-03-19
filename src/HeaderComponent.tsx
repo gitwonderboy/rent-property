@@ -8,7 +8,7 @@ export default function HeaderComponent(props) {
           <div className="row">
             <div className="col-lg-12">
               <span className="breadcrumb">
-                <Link to="/">Home</Link> / Properties
+                <Link to="/">Home</Link> / {props.page}
               </span>
               <h3>{props.pageTitle}</h3>
             </div>

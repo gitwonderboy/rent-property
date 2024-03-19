@@ -82,17 +82,19 @@ export default function ListPropertyComponent() {
           </div>
           <div className="row">
             {properties.map((property) => (
-              <PropertyComponent
-                src={property.src}
-                homeType={property.homeType}
-                price={property.price}
-                title={property.title}
-                bedrooms={property.bedrooms}
-                bathrooms={property.bathrooms}
-                area={property.area}
-                floor={property.floor}
-                parking={property.parking}
-              />
+              <div className="col-lg-4 col-md-6">
+                <PropertyComponent
+                  src={property.src}
+                  homeType={property.homeType}
+                  price={property.price}
+                  title={property.title}
+                  bedrooms={property.bedrooms}
+                  bathrooms={property.bathrooms}
+                  area={property.area}
+                  floor={property.floor}
+                  parking={property.parking}
+                />
+              </div>
             ))}
           </div>
         </div>
