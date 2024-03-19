@@ -132,7 +132,7 @@ export default function DealComponent() {
                           </div>
                         </div>
                         <div className="col-lg-6">
-                          <img src="assets/images/deal-02.jpg" alt="" />
+                          <img src="/src/assets/images/deal-02.jpg" alt="" />
                         </div>
                         <div className="col-lg-3">
                           <h4>Detail Info About Villa</h4>
@@ -176,7 +176,7 @@ export default function DealComponent() {
                           </div>
                         </div>
                         <div className="col-lg-6">
-                          <img src="assets/images/deal-03.jpg" alt="" />
+                          <img src="/src/assets/images/deal-03.jpg" alt="" />
                         </div>
                         <div className="col-lg-3">
                           <h4>Extra Info About Penthouse</h4>

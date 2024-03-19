@@ -8,7 +8,7 @@ export default function FeaturedComponent() {
               <div className="left-image">
                 <img src="/src/assets/images/featured.jpg" alt="" />
                 <a href="property-details.html">
-                  <img src="/src/assets/images/featured-icon.png" alt="" />
+                  <img src="/src/assets/images/featured-icon.png" alt="" style={{ maxWidth: '65px', padding: '5px' }} />
                 </a>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function FeaturedComponent() {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      Why is Villa Agency the best ?
+                      Why is Corner Properties the best ?
                     </button>
                   </h2>
                   <div
