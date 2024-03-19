@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export default function HeaderComponent(props) {
+export default function HeaderComponent(props: { page: string; pageTitle: string }) {
   return (
     <>
       <div className="page-heading header-text">

@@ -1,13 +1,13 @@
-import TopBarComponent from './TopBarComponent';
-import NavBarComponent from './NavBarComponent';
-import CarouselComponent from './CarouselComponent';
-import FeaturedComponent from './FeaturedComponent';
-import VideoComponent from './VideoComponent';
-import ExperienceComponent from './ExperienceComponent';
-import DealComponent from './DealComponent';
-import ListPropertyComponent from './ListPropertyComponent';
-import ContactsComponent from './ContactComponent';
-import FooterComponent from './FooterComponent';
+import TopBarComponent from './components/TopBarComponent';
+import NavBarComponent from './components/NavBarComponent';
+import CarouselComponent from './components/CarouselComponent';
+import FeaturedComponent from './components/FeaturedComponent';
+import VideoComponent from './components/VideoComponent';
+import ExperienceComponent from './components/ExperienceComponent';
+import DealComponent from './components/DealComponent';
+import ListPropertyComponent from './components/ListPropertyComponent';
+import ContactsComponent from './components/ContactComponent';
+import FooterComponent from './components/FooterComponent';
 
 export default function App() {
   return (

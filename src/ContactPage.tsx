@@ -1,8 +1,8 @@
-import TopBarComponent from './TopBarComponent';
-import NavBarComponent from './NavBarComponent';
-import ContactComponent from './ContactComponent';
-import HeaderComponent from './HeaderComponent';
-import FooterComponent from './FooterComponent';
+import TopBarComponent from './components/TopBarComponent';
+import NavBarComponent from './components/NavBarComponent';
+import ContactComponent from './components/ContactComponent';
+import HeaderComponent from './components/HeaderComponent';
+import FooterComponent from './components/FooterComponent';
 export default function ContactPage() {
   const map = (
     <div id="map">

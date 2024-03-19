@@ -1,8 +1,8 @@
-import TopBarComponent from './TopBarComponent';
-import NavBarComponent from './NavBarComponent';
-import HeaderComponent from './HeaderComponent';
-import FooterComponent from './FooterComponent';
-import PropertyComponent from './PropertyComponent';
+import TopBarComponent from './components/TopBarComponent';
+import NavBarComponent from './components/NavBarComponent';
+import HeaderComponent from './components/HeaderComponent';
+import FooterComponent from './components/FooterComponent';
+import PropertyComponent from './components/PropertyComponent';
 export default function Property() {
   const properties = [
     {
