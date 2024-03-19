@@ -19,7 +19,7 @@ export default function ContactComponent(props) {
                   <div className="item phone">
                     <img src="assets/images/phone-icon.png" alt="" style={{ maxWidth: '52px;' }} />
                     <h6>
-                      010-020-0340
+                      031-020-0340
                       <br />
                       <span>Phone Number</span>
                     </h6>
@@ -29,7 +29,7 @@ export default function ContactComponent(props) {
                   <div className="item email">
                     <img src="assets/images/email-icon.png" alt="" style={{ maxWidth: '52px;' }} />
                     <h6>
-                      info@villa.co
+                      info@cornerproperties.co.za
                       <br />
                       <span>Business Email</span>
                     </h6>

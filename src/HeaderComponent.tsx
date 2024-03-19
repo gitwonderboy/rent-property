@@ -1,4 +1,6 @@
-export default function HeaderComponent() {
+import { Link } from 'react-router-dom';
+
+export default function HeaderComponent(props) {
   return (
     <>
       <div className="page-heading header-text">
@@ -6,9 +8,9 @@ export default function HeaderComponent() {
           <div className="row">
             <div className="col-lg-12">
               <span className="breadcrumb">
-                <a href="#">Home</a> / Properties
+                <Link to="/">Home</Link> / Properties
               </span>
-              <h3>Properties</h3>
+              <h3>{props.pageTitle}</h3>
             </div>
           </div>
         </div>

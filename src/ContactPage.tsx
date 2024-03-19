@@ -7,12 +7,13 @@ export default function ContactPage() {
   const map = (
     <div id="map">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6919.993778589805!2d31.01931959349528!3d-29.864363550058815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7a9b674b2723b%3A0x491a0dd583208ad3!2sWeThinkCode_!5e0!3m2!1sen!2sza!4v1710851820567!5m2!1sen!2sza"
         width="100%"
-        height="500px"
-        frameborder="0"
+        height="450"
         style={{ border: '0', borderRadius: '10px', boxShadow: '0px 0px 15px rgba(0, 0, 0, 0.15)' }}
         allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
   );
@@ -20,7 +21,7 @@ export default function ContactPage() {
     <>
       <TopBarComponent />
       <NavBarComponent />
-      <HeaderComponent />
+      <HeaderComponent pageTitle="Contact Us" />
       <ContactComponent map={map} />
       <FooterComponent />
     </>

@@ -8,7 +8,7 @@ export default function Property() {
     <>
       <TopBarComponent />
       <NavBarComponent />
-      <HeaderComponent />
+      <HeaderComponent pageTitle="Properties" />
       <FooterComponent />
     </>
   );
