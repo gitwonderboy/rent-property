@@ -1,37 +1,23 @@
-export default function ContactComponent() {
+export default function ContactComponent(props) {
   return (
     <>
-      <div className="contact section">
+      <div className="contact-page section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 offset-lg-4">
-              <div className="section-heading text-center">
+            <div className="col-lg-6">
+              <div className="section-heading">
                 <h6>| Contact Us</h6>
                 <h2>Get In Touch With Our Agents</h2>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="contact-content">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-7">
-              <div id="map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6920.290685938447!2d31.024191578428287!3d-29.860081967386535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7a9b674b2723b%3A0x491a0dd583208ad3!2sWeThinkCode_!5e0!3m2!1sen!2sza!4v1710765009592!5m2!1sen!2sza"
-                  width="600"
-                  height="500"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
+              <p>
+                When you really need to download free CSS templates, please remember our website TemplateMo. Also, tell
+                your friends about our website. Thank you for visiting. There is a variety of Bootstrap HTML CSS
+                templates on our website. If you need more information, please contact us.
+              </p>
               <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-12">
                   <div className="item phone">
-                    <img src="assets/images/phone-icon.png" alt="" />
+                    <img src="assets/images/phone-icon.png" alt="" style={{ maxWidth: '52px;' }} />
                     <h6>
                       010-020-0340
                       <br />
@@ -39,9 +25,9 @@ export default function ContactComponent() {
                     </h6>
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-12">
                   <div className="item email">
-                    <img src="assets/images/email-icon.png" alt="" />
+                    <img src="assets/images/email-icon.png" alt="" style={{ maxWidth: '52px;' }} />
                     <h6>
                       info@villa.co
                       <br />
@@ -51,7 +37,7 @@ export default function ContactComponent() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-6">
               <form id="contact-form" action="" method="post">
                 <div className="row">
                   <div className="col-lg-12">
@@ -95,6 +81,7 @@ export default function ContactComponent() {
                 </div>
               </form>
             </div>
+            <div className="col-lg-12">{props.map}</div>
           </div>
         </div>
       </div>
